@@ -1,10 +1,8 @@
 import React, { useRef } from 'react';
-import { useScroll, useTransform } from 'framer-motion';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import GalleryComponent from './gallery_components/gallery_components.js';
 
 import '../Gallery/ImageGallery.scss';
-
-import GalleryComponent from './gallery_components/gallery_components.js';
 
 function ImageGallery() {
   const portfolioRef = useRef(null);
@@ -39,7 +37,7 @@ function ImageGallery() {
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
       >
-        Works
+        Projets
       </motion.div>
     </div>
   );

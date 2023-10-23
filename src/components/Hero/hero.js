@@ -1,13 +1,8 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { useRef } from 'react';
-import { useState, useEffect } from 'react';
-import { useScroll, useTransform, useTime } from 'framer-motion';
+import React, { useState, useEffect, useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import '../Hero/hero.scss';
-
 import { AnimateLetters, AnimatedTextStaggerWords } from './hero_components.js';
 
-import debout from '../../images/debout.JPG';
 export const Hero = () => {
   const [delay, setdelay] = useState(false);
 
@@ -53,7 +48,8 @@ export const Hero = () => {
       <div className="hero-container" ref={targetRef}>
         <motion.div className="hero-info">
           <p>
-            Open to any collaboration <br /> for creating clean modern designs
+            Ouvert à toute collaboration <br /> pour créer des designs modernes
+            et épurés
           </p>
         </motion.div>
         <motion.div className="hero-version">
@@ -87,18 +83,16 @@ export const Hero = () => {
               style={{ opacity: opacityhero }}
             >
               <p>
-                ☺ <span>Passionate</span> about creating unforgettable and
-                beautiful digital experiences.
+                ☺ <span>Passioné</span> par le design créatif pour concevoir des
+                projets uniques
               </p>
             </motion.div>
           </motion.div>
           <div className="info-container">
             <motion.div className="info" style={{ opacity: opacityhero }}>
-              <AnimatedTextStaggerWords text="Rémy (he/him) is and independent develloper" />
+              <AnimatedTextStaggerWords text="Rémy (il/lui) est un developper indépendant" />
               <br />
-              {delay && (
-                <AnimatedTextStaggerWords text="from Bordeaux, France" />
-              )}
+              {delay && <AnimatedTextStaggerWords text="de Bordeaux, France" />}
             </motion.div>
           </div>
         </motion.div>

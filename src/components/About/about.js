@@ -1,12 +1,12 @@
-import '../About/about.scss';
+import { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 
+import Hobby from './about_components/Hobby.js';
 import debout from '../../images/debout.JPG';
 import assis from '../../images/assis.JPG';
 import guitare from '../../images/guitare.JPG';
 
-import { useEffect, useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
-import gsap from 'gsap';
+import '../About/about.scss';
 
 const AboutFake = () => {
   const AboutRef = useRef();
@@ -66,6 +66,7 @@ const AboutFake = () => {
           ></motion.img>
         </div>
       </motion.div>
+      <Hobby />
     </>
   );
 };

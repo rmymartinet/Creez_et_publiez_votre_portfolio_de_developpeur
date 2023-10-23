@@ -247,9 +247,10 @@
 
       .info {
         text-align: left;
-        font-size: 15px;
+        font-size: 12px;
         line-height: 0.7em;
         font-family: 'Roboto';
+        margin-left: 110px;
       }
     }
 
@@ -259,6 +260,10 @@
   }
 
   .hero-info {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 30%;
     margin: 40px 0 0 20px;
     font-size: 0.9em;
     font-style: italic;

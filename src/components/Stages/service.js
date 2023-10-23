@@ -1,6 +1,4 @@
 import React from 'react';
-import { useRef } from 'react';
-import { useScroll, useTransform } from 'framer-motion';
 import { motion } from 'framer-motion';
 import './service.scss';
 import { AnimatedTextStaggerLetter } from '../Hero/hero_components.js';
@@ -9,8 +7,8 @@ const Service = () => {
   return (
     <main class="main-container">
       <header class="main-header">
-        <span>Stages of</span>
-        <AnimatedTextStaggerLetter text="works" className="text-red" />
+        <span>Processus de </span>
+        <AnimatedTextStaggerLetter text="travail" className="text-red" />
       </header>
       <div className="list-item">
         <div className="row-1">
@@ -19,16 +17,19 @@ const Service = () => {
               <div className="test-content">
                 <span>(a)</span>
                 <div className="test-text">
-                  <h1>Task discussion</h1>
+                  <h1>Discution de taches</h1>
                   <p>
-                    In my opinion, deep understanding of the brief and client is
-                    a must in the starting point. Determining project goals and
-                    functional specifications, knowing competitors and target
-                    audiences, making researches will be taken at this stage in
-                    order to find a precise combination between Typography,
-                    Color, Composition, Motion and brand assets. For me, this
-                    process is the foundation for solving business problems and
-                    discovering a right direction for the perfect design.
+                    À mon avis, une compréhension approfondie du cahier des
+                    charges et du client est indispensable au point de départ.
+                    La définition des objectifs du projet et des spécifications
+                    fonctionnelles, la connaissance des concurrents et du public
+                    cible, ainsi que la réalisation de recherches sont des
+                    étapes cruciales à ce stade pour trouver une combinaison
+                    précise entre la typographie, les couleurs, la composition,
+                    les animations et les éléments de la marque. Pour moi, ce
+                    processus est la base pour résoudre les problèmes
+                    commerciaux et découvrir la bonne direction pour le design
+                    parfait.
                   </p>
                 </div>
               </div>
@@ -41,16 +42,16 @@ const Service = () => {
               <div className="test-content">
                 <span>(b)</span>
                 <div className="test-text">
-                  <h1>Site Structure</h1>
+                  <h1>Structure du site</h1>
                   <p>
-                    After delving into your requirements, we move on to
-                    structuring your website. Even before thinking about design,
-                    it's crucial to conduct in-depth research. We analyze the
-                    market, your business's strengths and weaknesses, as well as
-                    your competitors. We also take the time to understand your
-                    target audience. Based on this information, I create a
-                    black-and-white prototype that will serve as the foundation
-                    for the final design.
+                    Après avoir examiné vos besoins, nous passons à la
+                    structuration de votre site web. Avant même de penser au
+                    design, il est essentiel de mener une recherche approfondie.
+                    Nous analysons le marché, les forces et faiblesses de votre
+                    entreprise, ainsi que vos concurrents. Nous prenons
+                    également le temps de comprendre votre public cible. Sur la
+                    base de ces informations, je crée un prototype en noir et
+                    blanc qui servira de base pour le design final.
                   </p>
                 </div>
               </div>
@@ -63,13 +64,13 @@ const Service = () => {
               <div className="test-content">
                 <span>(c)</span>
                 <div className="test-text">
-                  <h1>Site Design</h1>
+                  <h1>Design du site</h1>
                   <p>
-                    Design is a critical step in creating your website. I
-                    prepare design references that we discuss together. We
-                    create one or two layout prototypes for the initial sections
-                    of the site to validate the overall style that suits your
-                    preferences.
+                    Le design est une étape critique dans la création de votre
+                    site web. Je prépare des références de design que nous
+                    discutons ensemble. Nous créons un ou deux prototypes de
+                    mise en page pour les sections initiales du site afin de
+                    valider le style global qui correspond à vos préférences.
                   </p>
                 </div>
               </div>
@@ -84,13 +85,14 @@ const Service = () => {
                 <div className="test-text">
                   <h1>Full Design</h1>
                   <p>
-                    Once we've determined the style you like, I proceed to the
-                    full design of the website. This involves creating a
-                    detailed layout that incorporates the entire design concept
-                    for the entire site. This is where aesthetics come to life,
-                    with careful consideration of layout, colors, typography,
-                    and thoughtfully chosen visual elements to provide a
-                    consistent user experience.
+                    Une fois que nous avons déterminé le style que vous aimez,
+                    je passe à la conception complète du site web. Cela implique
+                    la création d'une mise en page détaillée qui intègre
+                    l'ensemble du concept de design pour l'ensemble du site.
+                    C'est là que l'esthétique prend vie, avec une attention
+                    particulière à la mise en page, aux couleurs, à la
+                    typographie et aux éléments visuels soigneusement choisis
+                    pour offrir une expérience utilisateur cohérente.
                   </p>
                 </div>
               </div>
@@ -103,15 +105,16 @@ const Service = () => {
               <div className="test-content">
                 <span>(e)</span>
                 <div className="test-text">
-                  <h1>Development</h1>
+                  <h1>Developpement</h1>
                   <p>
-                    The development phase transforms the static design into an
-                    interactive website. I use dev tools like Figma to transfer
-                    the previously designed layout. I also ensure that the site
-                    is connected to the necessary services, such as databases or
-                    content management systems. Before going live, the site is
-                    meticulously configured and tested to ensure smooth
-                    operation.
+                    La phase de développement transforme le design statique en
+                    un site web interactif. J'utilise des outils de
+                    développement comme Figma pour transférer la mise en page
+                    conçue précédemment. Je m'assure également que le site est
+                    connecté aux services nécessaires, tels que les bases de
+                    données ou les systèmes de gestion de contenu. Avant de le
+                    rendre accessible au public, le site est configuré avec soin
+                    et testé pour garantir un fonctionnement fluide.
                   </p>
                 </div>
               </div>
@@ -124,14 +127,15 @@ const Service = () => {
               <div className="test-content">
                 <span>(f)</span>
                 <div className="test-text">
-                  <h1>Final Delivery</h1>
+                  <h1>Livraison finale</h1>
                   <p>
-                    Finally, we move on to the site's delivery. I transfer the
-                    final site to your paid account. If needed, I can provide
-                    you with video instructions to help you manage and maintain
-                    your website. This includes guidance on content management,
-                    updates, and other essential aspects to keep your site up to
-                    date and performing well.
+                    Enfin, nous passons à la livraison du site. Je transfère le
+                    site final sur votre compte payant. Si nécessaire, je peux
+                    vous fournir des instructions vidéo pour vous aider à gérer
+                    et à entretenir votre site web. Cela inclut des conseils sur
+                    la gestion du contenu, les mises à jour et d'autres aspects
+                    essentiels pour maintenir votre site à jour et en bon état
+                    de fonctionnement.
                   </p>
                 </div>
               </div>

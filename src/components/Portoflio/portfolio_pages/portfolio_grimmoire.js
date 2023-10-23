@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import imageDesert from '../../../images/image2.jpg';
 import '../../Portoflio/Portfolio.scss';
 import { motion } from 'framer-motion';
 import CarouselGrimmoire from '../portfolio_components/carouselle_grimmoire.js';
+
+import grimmoire from '../../../images/grimmoire1.png';
 
 const PortfolioGrimmoire = () => {
   const [showCarouselle, setShowCarouselle] = useState(false);
@@ -29,7 +30,7 @@ const PortfolioGrimmoire = () => {
             transition={{ duration: 0.9 }}
             onAnimationComplete={handleAnimation}
           >
-            <img src={imageDesert}></img>
+            <img src={grimmoire}></img>
           </motion.div>
         </div>
       </div>

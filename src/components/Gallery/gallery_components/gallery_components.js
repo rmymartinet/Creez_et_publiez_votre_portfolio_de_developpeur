@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 import './gallery_components.scss';
 
-import desert from '../../../images/image2.jpg';
 import kasa from '../../../images/kasa1.jpg';
 import grimmoire from '../../../images/grimmoire1.png';
 import sophiebuel from '../../../images/sophiebuel1.png';
@@ -73,7 +72,7 @@ function GalleryComponent() {
             </div>
             <div className="imgContainer-infos">
               <h1>Kasa</h1>
-              <p>Apartment rentals</p>
+              <p>Location d'appartements</p>
             </div>
           </div>
           <div
@@ -86,8 +85,8 @@ function GalleryComponent() {
               </Link>
             </div>
             <div className="imgContainer-infos">
-              <h1>Kasa</h1>
-              <p>Apartment rentals</p>
+              <h1>Mon vieux grimmoire</h1>
+              <p>Librairie</p>
             </div>
           </div>
           <div
@@ -100,8 +99,8 @@ function GalleryComponent() {
               </Link>
             </div>
             <div className="imgContainer-infos">
-              <h1>Kasa</h1>
-              <p>Apartment rentals</p>
+              <h1>Architecte</h1>
+              <p>Portfolio</p>
             </div>
           </div>
           <div
@@ -114,8 +113,8 @@ function GalleryComponent() {
               </Link>
             </div>
             <div className="imgContainer-infos">
-              <h1>Kasa</h1>
-              <p>Apartment rentals</p>
+              <h1>Booki</h1>
+              <p>Réservation de vacances</p>
             </div>
           </div>
         </div>

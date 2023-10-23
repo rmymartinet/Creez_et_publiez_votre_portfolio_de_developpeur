@@ -135,15 +135,31 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .about-container {
+    border: solid red;
+    top: -60%;
+    position: sticky;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .about-content {
+    position: absolute;
+    top: -330px;
+    width: 65%;
+  }
   .about-title {
     width: 400px;
     font-size: 1.4em;
   }
 
   .about-subtitle {
-    color: black;
+    color: rgb(10, 10, 10);
     width: 400px;
     font-size: 1.4em;
-    bottom: 5%;
+    bottom: 0%;
   }
 }

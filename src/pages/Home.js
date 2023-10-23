@@ -46,8 +46,7 @@ import Hero from '../components/Hero/hero.js';
 import ImageGallery from '../components/Gallery/gallery.js';
 import About from '../components/About/about.js';
 import Service from '../components/Stages/service.js';
-import Hobby from '../components/Hobby.js';
-import Contact from '../components/Contact.js';
+import Contact from '../components/Contact/Contact.js';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -75,8 +74,6 @@ const Home = () => {
       <ImageGallery />
       <Service />
       <About />
-      {/* <AboutFake /> */}
-      <Hobby />
       <Contact />
     </div>
   );

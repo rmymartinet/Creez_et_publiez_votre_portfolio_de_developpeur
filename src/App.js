@@ -4,7 +4,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home.js';
 // import NavBar from './components/NavBar.js';
 import { AnimatePresence } from 'framer-motion';
-import '../src/globals.css';
+import '../src/css/global.css';
 
 import PortfolioGrimmoire from './components/Portoflio/portfolio_pages/portfolio_grimmoire.js';
 import PortfolioBooki from './components/Portoflio/portfolio_pages/portfolio_booki.js';

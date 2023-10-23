@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import imageDesert from '../../../images/image2.jpg';
 import '../../Portoflio/Portfolio.scss';
 import { motion } from 'framer-motion';
 import CarouselSophieBuel from '../portfolio_components/carouselle_sophie_buel.js';
+import sophiebuel from '../../../images/sophiebuel1.png';
 
 const PortfolioSophieBuel = () => {
   const [showCarouselle, setShowCarouselle] = useState(false);
@@ -29,7 +29,7 @@ const PortfolioSophieBuel = () => {
             transition={{ duration: 0.9 }}
             onAnimationComplete={handleAnimation}
           >
-            <img src={imageDesert}></img>
+            <img src={sophiebuel}></img>
           </motion.div>
         </div>
       </div>

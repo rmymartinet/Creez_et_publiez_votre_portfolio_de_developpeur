@@ -1,7 +1,6 @@
+import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import React from 'react';
 import { letterTransition } from '../animation.js';
-import { useRef } from 'react';
 import { defaultAnimation } from '../animation.js';
 import { lettersMove } from '../animation.js';
 

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import imageDesert from '../../../images/image2.jpg';
 import '../../Portoflio/Portfolio.scss';
 import { motion } from 'framer-motion';
 import CarouselBooki from '../portfolio_components/carouselle_booki.js';
+import booki from '../../../images/booki1.png';
 
 const PortfolioBooki = () => {
   const [showCarouselle, setShowCarouselle] = useState(false);
@@ -29,7 +29,7 @@ const PortfolioBooki = () => {
             transition={{ duration: 0.9 }}
             onAnimationComplete={handleAnimation}
           >
-            <img src={imageDesert}></img>
+            <img src={booki}></img>
           </motion.div>
         </div>
       </div>
