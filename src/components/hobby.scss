@@ -1,0 +1,144 @@
+.hobby-section {
+  height: 100vh;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 2000 2000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E");
+  // background-color: #f2f1ed;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.hobby-container {
+  position: relative;
+}
+
+.img-preview-container {
+  position: absolute;
+  left: 0;
+  width: 700px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hobby-names {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  width: 50%;
+  font-size: 4em;
+}
+
+.hobby-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.hobby-flex p {
+  padding-left: 20px;
+}
+
+.padding-right {
+  padding-right: 20px;
+}
+
+.img-name {
+  position: relative;
+  font-size: 1.1em;
+}
+
+.img-name::before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  height: 8px;
+  width: 0;
+  left: 2px;
+  background: red;
+  opacity: 0.7;
+  transition: width 0.3s ease-in-out;
+}
+
+:hover::before {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hobby-container {
+    position: relative;
+  }
+
+  .img-preview-container {
+    position: absolute;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .hobby-names {
+    top: 100px;
+    right: 5%;
+    width: 50%;
+    height: 100vh;
+    font-size: 1.5em;
+  }
+
+  .hobby-flex {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .hobby-flex p {
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 1.3em;
+  }
+
+  .padding-right {
+    padding-right: 10px;
+  }
+
+  .img-name {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .img-preview-container {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .hobby-names {
+    top: 100px;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+  }
+
+  .hobby-flex {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+
+  .hobby-flex p {
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 1.1em;
+  }
+
+  .padding-right {
+    padding-right: 20px;
+  }
+
+  .img-name {
+    font-size: 1.6em;
+  }
+}

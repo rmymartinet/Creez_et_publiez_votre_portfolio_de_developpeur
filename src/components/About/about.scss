@@ -1,0 +1,149 @@
+.about-container {
+  top: -60%;
+  position: sticky;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.about-title {
+  position: absolute;
+  z-index: 30;
+  color: rgb(238, 83, 83);
+  width: 800px;
+  font-size: 4em;
+  text-indent: 3em;
+  top: 30px;
+  left: 30px;
+}
+
+.about-subtitle {
+  position: absolute;
+  z-index: 30;
+  color: rgb(217, 19, 19);
+  width: 800px;
+  font-size: 4em;
+  text-indent: 5em;
+  bottom: 10%;
+  right: 30px;
+}
+
+.about-content {
+  position: relative;
+  width: 65%;
+  height: 150vh;
+}
+
+.about-content img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/// ESSAI
+
+.essai {
+  border: solid blue;
+  position: relative;
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  color: black;
+  height: 100vh;
+}
+
+.essai-image-container {
+  position: absolute;
+  left: 0;
+  width: 700px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.essai-images {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.essai-text-container {
+  position: absolute;
+  right: 30%;
+}
+
+.essai-text-container p {
+  font-size: 1.7em;
+  padding: 10px;
+}
+
+.essai-text-container span {
+  font-size: 1.25em;
+}
+
+//TEST :
+.images {
+  position: relative;
+
+  img {
+    position: absolute;
+    height: 40vh;
+    opacity: 0;
+    z-index: -1;
+    transform: scale(0.8);
+  }
+}
+
+.categories-wrapper {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+
+  .categories {
+    width: 40vmax;
+    font-size: 3.6vmax;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+
+    p {
+      cursor: pointer;
+      font-weight: 400;
+      color: #282229;
+      mix-blend-mode: color-burn;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    width: 700px;
+    font-size: 3em;
+  }
+
+  .about-subtitle {
+    color: black;
+    width: 700px;
+    font-size: 3em;
+    bottom: 5%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .about-title {
+    width: 400px;
+    font-size: 1.4em;
+  }
+
+  .about-subtitle {
+    color: black;
+    width: 400px;
+    font-size: 1.4em;
+    bottom: 5%;
+  }
+}

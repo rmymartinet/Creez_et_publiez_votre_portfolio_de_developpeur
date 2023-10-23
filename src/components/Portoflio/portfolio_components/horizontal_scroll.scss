@@ -1,0 +1,294 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: circle;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav,
+footer {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: 'PP Supply Sans';
+  font-size: 15px;
+  text-transform: uppercase;
+  opacity: 0.4;
+  z-index: 100;
+}
+
+.footer-info {
+  display: flex;
+  gap: 30px;
+}
+
+nav > div {
+  display: flex;
+  gap: 50px;
+}
+
+.back-hover {
+  text-decoration: none;
+  color: initial;
+}
+
+footer {
+  bottom: 0;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  width: max-content;
+  padding: 0 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.slide {
+  width: 100vw;
+  height: 80vh;
+  /* height: 500px !important; */
+  background: gray;
+}
+
+.last {
+  width: 70vw;
+  height: 80vh;
+  background: gray;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.marker-wrapper {
+  position: absolute;
+  top: 0;
+  left: 1600px;
+  width: max-content;
+  height: 100vh;
+}
+
+.marker {
+  position: relative;
+  width: 2px;
+  height: 100%;
+  background: #000;
+}
+
+.marker:after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 50px;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 100%;
+}
+
+.active-slide {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  font-family: 'PP Supply Sans';
+  font-size: 15px;
+}
+
+//Slide 1
+.first-container {
+  position: relative;
+}
+
+.number-title {
+  position: absolute;
+  top: 2%;
+  left: -4%;
+  font-size: 3em;
+  color: red;
+  opacity: 0.9;
+}
+
+.first-title {
+  position: absolute;
+  width: 60%;
+  top: 8%;
+  left: -5%;
+  font-size: 10em;
+}
+
+.first-image {
+  margin-left: 557px;
+  width: 60vw;
+  height: 85vh;
+  background: gray;
+}
+
+.first-button {
+  position: absolute;
+  top: 90%;
+  left: 15%;
+}
+
+.description-container {
+  position: absolute;
+  top: 35%;
+  left: -80px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description-content {
+  display: flex;
+  gap: 20px;
+  line-height: 1.3em;
+}
+
+.description-title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.separate-line {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+}
+
+.description-col-1 {
+  width: 40%;
+}
+
+.description-col-1 ul {
+  margin-left: 17px;
+}
+
+.brief-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.brief-content {
+  margin-bottom: 30px;
+}
+
+.lead-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+////////////////////////////////////OVERVIEW-SLIDE
+///
+.slide-overview {
+  width: 800px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.slide-overview h1 {
+  font-size: 5em;
+}
+
+.slide-overview .slide-overview-text-1 {
+  font-size: 2em;
+}
+.slide-overview .slide-overview-text-2 {
+  width: 600px;
+
+  font-size: 2em;
+}
+
+.slide-learn {
+  width: 600px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.slide-learn h1 {
+  font-size: 5em;
+}
+
+.slide-learn li {
+  list-style: circle;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+.button-project {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+}
+.button-content {
+  position: relative;
+  width: 100%;
+  font-size: 1.1em;
+}
+
+.button-content::before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  height: 4px;
+  width: 0;
+  left: 2px;
+  background: red;
+  opacity: 0.8;
+  transition: width 0.3s ease-in-out;
+}
+
+:hover::before {
+  width: 100%;
+}
+
+.button-next-project {
+  position: relative;
+  font-size: 1.1em;
+}
+
+.button-next-project::before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  height: 4px;
+  width: 0;
+  left: 1px;
+  background: red;
+  opacity: 0.8;
+  transition: width 0.3s ease-in-out;
+}
+:hover::before {
+  width: 100%;
+}

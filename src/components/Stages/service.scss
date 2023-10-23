@@ -1,0 +1,150 @@
+.main-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1.8fr 0.5fr 0.5fr;
+}
+.list-item {
+  display: grid;
+  height: 230vh;
+  grid-column: 3;
+}
+.main-container .row-1 {
+  grid-row: 1;
+}
+.main-container .row-2 {
+  grid-row: 3;
+}
+.main-container .row-3 {
+  grid-row: 5;
+}
+.main-container .row-4 {
+  grid-row: 7;
+}
+.main-container .row-5 {
+  grid-row: 9;
+}
+.main-container .row-6 {
+  grid-row: 11;
+}
+
+.main-header {
+  position: sticky;
+  top: 0;
+  grid-column: 1;
+  grid-row: 1 / span 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // background: #aaa;
+  // opacity: 0.4;
+  background: rgba(170, 170, 170, 0.4);
+}
+
+.main-header h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: italic;
+  color: #fff;
+}
+
+// .test1 {
+//   grid-row: 7;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.test-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.test-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.test-col1 span {
+  position: absolute;
+  top: -5px;
+  right: 570px;
+  font-size: 2.3em;
+}
+
+.test-text {
+  width: 70%;
+  align-self: center;
+}
+
+.test-text h1 {
+  margin-bottom: 30px;
+}
+
+.main-header {
+  opacity: 0.6;
+  font-size: 8em;
+  color: white;
+  font-weight: 700;
+}
+.text-red {
+  color: red;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1.8fr;
+  }
+
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+  }
+
+  .test-col1 span {
+    position: absolute;
+    top: -5px;
+    right: 380px;
+    font-size: 2.3em;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .main-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1.1fr 0.6fr 1.8fr;
+  }
+
+  .list-item {
+    display: grid;
+    height: 290vh;
+    grid-column: 3;
+  }
+
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+  }
+
+  .test-col1 span {
+    position: absolute;
+    top: -5px;
+    right: 280px;
+    font-size: 1.4em;
+  }
+
+  .test-text {
+    width: 90%;
+  }
+  .test-text h1 {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+  }
+}
