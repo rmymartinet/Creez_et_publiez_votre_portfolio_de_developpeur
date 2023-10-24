@@ -3,7 +3,7 @@ import '../../Portoflio/Portfolio.scss';
 import { motion } from 'framer-motion';
 import HorizontalCarouselleKasa from '../portfolio_components/carouselle_kasa.js';
 
-import kasa from '../../../images/kasa1.jpg';
+import kasa from '../../../images/kasa1.webp';
 
 const PortfolioKasa = () => {
   const [showCarouselle, setShowCarouselle] = useState(false);

@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 
 import './gallery_components.scss';
 
-import kasa from '../../../images/kasa1.jpg';
-import grimmoire from '../../../images/grimmoire1.png';
-import sophiebuel from '../../../images/sophiebuel1.png';
-import booki from '../../../images/booki1.png';
+import kasa from '../../../images/kasa1.webp';
+import grimmoire from '../../../images/grimmoire1.webp';
+import sophiebuel from '../../../images/sophiebuel1.webp';
+import booki from '../../../images/booki1.webp';
 
 function GalleryComponent() {
   const imgPreviewRef = useRef(null);

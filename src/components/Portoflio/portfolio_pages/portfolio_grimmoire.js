@@ -3,7 +3,7 @@ import '../../Portoflio/Portfolio.scss';
 import { motion } from 'framer-motion';
 import CarouselGrimmoire from '../portfolio_components/carouselle_grimmoire.js';
 
-import grimmoire from '../../../images/grimmoire1.png';
+import grimmoire from '../../../images/grimmoire1.webp';
 
 const PortfolioGrimmoire = () => {
   const [showCarouselle, setShowCarouselle] = useState(false);

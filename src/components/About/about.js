@@ -2,9 +2,9 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 import Hobby from './about_components/Hobby.js';
-import debout from '../../images/debout.JPG';
-import assis from '../../images/assis.JPG';
-import guitare from '../../images/guitare.JPG';
+import debout from '../../images/debout.webp';
+import assis from '../../images/assis.webp';
+import guitare from '../../images/guitare.webp';
 
 import '../About/about.scss';
 

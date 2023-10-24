@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../../Portoflio/Portfolio.scss';
 import { motion } from 'framer-motion';
 import CarouselSophieBuel from '../portfolio_components/carouselle_sophie_buel.js';
-import sophiebuel from '../../../images/sophiebuel1.png';
+import sophiebuel from '../../../images/sophiebuel1.webp';
 
 const PortfolioSophieBuel = () => {
   const [showCarouselle, setShowCarouselle] = useState(false);

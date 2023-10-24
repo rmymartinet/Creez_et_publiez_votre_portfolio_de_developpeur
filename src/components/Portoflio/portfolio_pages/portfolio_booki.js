@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../../Portoflio/Portfolio.scss';
 import { motion } from 'framer-motion';
 import CarouselBooki from '../portfolio_components/carouselle_booki.js';
-import booki from '../../../images/booki1.png';
+import booki from '../../../images/booki1.webp';
 
 const PortfolioBooki = () => {
   const [showCarouselle, setShowCarouselle] = useState(false);

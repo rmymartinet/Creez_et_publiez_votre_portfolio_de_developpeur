@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { AnimatedTextStaggerLetter } from '../../Hero/hero_components.js';
 import '../portfolio_components/horizontal_scroll.scss';
-import booki from '../../../images/booki1.png';
+import booki from '../../../images/booki1.webp';
 
 const CarouselBooki = () => {
   return (
