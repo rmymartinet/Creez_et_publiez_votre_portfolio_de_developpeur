@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import image1 from '../../../images/image1.jpg';
 import image2 from '../../../images/image2.jpeg';
 import image3 from '../../../images/image3.jpeg';
+import psg from '../../../images/psg.png';
 import './hobby.scss';
 
 const Hobby = () => {
@@ -16,6 +17,7 @@ const Hobby = () => {
       <div className="hobby-container">
         <div className="hobby-names">
           <div className="hobby-flex">
+            <img alt="psg" src={psg} />
             <span
               className="img-name"
               onMouseOver={() => handleMouseOver(image1)}

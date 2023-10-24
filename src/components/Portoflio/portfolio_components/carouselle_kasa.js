@@ -93,7 +93,9 @@ const CarouselleKasa = () => {
               </div>
               <div className="button-project">
                 <div className="button-content">
-                  <span>Visiter le site</span>
+                  <a href="https://stephane-lieumont.fr/demo/openclassrooms-kasa/">
+                    Visiter le site
+                  </a>
                 </div>
               </div>
 
@@ -104,9 +106,9 @@ const CarouselleKasa = () => {
           </div>
         </div>
         <motion.footer
-        // initial={{ opacity: 0 }}
-        // animate={{ opacity: 0.4 }}
-        // transition={{ duration: 2.5 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 0.4 }}
+          transition={{ duration: 2.5 }}
         >
           <div>Kasa designs</div>
           <p>Year: 2023</p>

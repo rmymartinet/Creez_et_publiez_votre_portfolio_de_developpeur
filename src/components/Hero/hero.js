@@ -46,7 +46,7 @@ export const Hero = () => {
   return (
     <>
       <div className="hero-container" ref={targetRef}>
-        <motion.div className="hero-info">
+        <motion.div className="hero-info" style={{ opacity: opacityhero }}>
           <p>
             Ouvert à toute collaboration <br /> pour créer des designs modernes
             et épurés
@@ -83,14 +83,14 @@ export const Hero = () => {
               style={{ opacity: opacityhero }}
             >
               <p>
-                ☺ <span>Passioné</span> par le design créatif pour concevoir des
-                projets uniques
+                ☺ <span className="passioné">Passioné</span> par le design
+                créatif pour concevoir des projets uniques
               </p>
             </motion.div>
           </motion.div>
           <div className="info-container">
             <motion.div className="info" style={{ opacity: opacityhero }}>
-              <AnimatedTextStaggerWords text="Rémy (il/lui) est un developper indépendant" />
+              <AnimatedTextStaggerWords text="Rémy (il/lui) est un developpeur indépendant" />
               <br />
               {delay && <AnimatedTextStaggerWords text="de Bordeaux, France" />}
             </motion.div>

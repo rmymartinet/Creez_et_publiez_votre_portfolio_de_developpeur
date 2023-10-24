@@ -37,14 +37,15 @@ const AboutFake = () => {
       <motion.div className="about-container">
         <motion.div className="about-title">
           <p>
-            In the game for over 1 years, I'm currently based in Bordeaux city,
-            working as an independent developer since October 2023."
+            Développeur depuis presque 1 an, je suis actuellement basé dans la
+            ville de Bordeaux, où je travaille en tant que développeur
+            indépendant
           </p>
         </motion.div>
         <motion.div className="about-subtitle">
           <p>
-            Enthusiastic about crafting ideas, visual elements, motion, and
-            typography into memorable creations.
+            "Passionné par la transformation d'idées, d'éléments visuels, de
+            mouvements et de typographie en créations mémorables."
           </p>
         </motion.div>
         <div className="about-content" ref={AboutRef}>

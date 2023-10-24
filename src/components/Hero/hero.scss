@@ -90,9 +90,12 @@
   }
 
   .hero-text span {
+    position: relative;
     color: red;
-    font-weight: 600;
+    font-weight: 800;
     font-style: italic;
+    width: 100%;
+    margin-right: 5px;
   }
 }
 
@@ -211,7 +214,7 @@
 
   .hero-info {
     margin: 40px 0 0 40px;
-    font-size: 0.9em;
+    font-size: 1em;
     font-style: italic;
   }
 

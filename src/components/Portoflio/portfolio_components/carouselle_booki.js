@@ -99,7 +99,7 @@ const CarouselBooki = () => {
 
               <div className="button-project">
                 <div className="button-content">
-                  <span>Visiter le site</span>
+                  <a href="https://p2.arthurpellissier.com/">Visiter le site</a>
                 </div>
               </div>
 
@@ -110,9 +110,9 @@ const CarouselBooki = () => {
           </div>
         </div>
         <motion.footer
-        // initial={{ opacity: 0 }}
-        // animate={{ opacity: 0.4 }}
-        // transition={{ duration: 2.5 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 0.4 }}
+          transition={{ duration: 2.5 }}
         >
           <div>Booki design</div>
           <p>Année: 2023</p>
