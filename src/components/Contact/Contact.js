@@ -11,7 +11,9 @@ const Contact = () => {
           <a className="contact-link">Linkedin</a>
           <a className="contact-link">Github</a>
           <a className="contact-link">Instagram</a>
-          <a className="contact-link">Mail</a>
+          <a href="mailto:remymartin.bk@gmail.com" className="contact-link">
+            @remymartin.bk@gmail.com
+          </a>
         </div>
       </div>
     </section>
