@@ -5,10 +5,10 @@ import Hobby from './about_components/Hobby.js';
 import debout from '../../images/debout.webp';
 import assis from '../../images/assis.webp';
 import guitare from '../../images/guitare.webp';
-
 import '../About/about.scss';
 
 const AboutFake = () => {
+  //Animations
   const AboutRef = useRef();
 
   const { scrollYProgress } = useScroll({

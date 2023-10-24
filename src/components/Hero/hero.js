@@ -56,7 +56,6 @@ export const Hero = () => {
           <p>portfolio vol.1</p>
         </motion.div>
         <motion.div className="hero-left">
-          {/*div qui contient le titre et prénom*/}
           <motion.div className="hero-content" style={{ position }}>
             <motion.div style={{ opacity }}>
               <AnimateLetters

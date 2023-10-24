@@ -6,6 +6,8 @@ import '../Gallery/ImageGallery.scss';
 
 function ImageGallery() {
   const portfolioRef = useRef(null);
+
+  //Animations
   const { scrollYProgress } = useScroll({
     target: portfolioRef,
     offset: ['start center', 'end center'],
