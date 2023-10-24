@@ -37,7 +37,7 @@ const AboutFake = () => {
       <motion.div className="about-container">
         <motion.div className="about-title">
           <p>
-            Développeur depuis presque 1 an, je suis actuellement basé dans la
+            Développeur depuis plus de 1 an, je suis actuellement basé dans la
             ville de Bordeaux, où je travaille en tant que développeur
             indépendant
           </p>
