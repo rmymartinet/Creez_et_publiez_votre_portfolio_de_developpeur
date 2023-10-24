@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://rmymartinet.github.io/myportfolio",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.86.3",
@@ -20,6 +19,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "react-three-fiber": "^6.0.13",
+    "sass-loader": "^13.3.2",
     "split-text-js": "^1.0.3",
     "three": "^0.157.0",
     "web-vitals": "^2.1.4"
@@ -51,6 +51,8 @@
     ]
   },
   "devDependencies": {
-    "@types/react-scroll": "^1.8.9"
+    "@types/react-scroll": "^1.8.9",
+    "node-sass": "^7.0.3",
+    "sass": "^1.69.4"
   }
 }
