@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.68472cc2.css",
-    "main.js": "/myportfolio/static/js/main.1de8d0f5.js",
-    "static/js/787.1ed0c42c.chunk.js": "/myportfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Heiti.TTF": "/myportfolio/static/media/Heiti.047c1ed20f5aae89948b.TTF",
-    "static/media/guitare.JPG": "/myportfolio/static/media/guitare.e1062ff95f74b0c8efe0.JPG",
-    "static/media/assis.JPG": "/myportfolio/static/media/assis.f37a96e0a68297035399.JPG",
-    "static/media/debout.JPG": "/myportfolio/static/media/debout.687c9d971fced2c4c112.JPG",
-    "static/media/image1.jpg": "/myportfolio/static/media/image1.db61851236c128c31442.jpg",
-    "static/media/sophiebuel1.png": "/myportfolio/static/media/sophiebuel1.ba7d1f130ea2292b79f6.png",
-    "static/media/grimmoire1.png": "/myportfolio/static/media/grimmoire1.622294292af246589466.png",
-    "static/media/Doctor.otf": "/myportfolio/static/media/Doctor.dba195ec081494ebf1e4.otf",
-    "static/media/booki1.png": "/myportfolio/static/media/booki1.a346b4906372d7554201.png",
-    "static/media/Bukari-script.ttf": "/myportfolio/static/media/Bukari-script.7b5651144c5259518a6b.ttf",
-    "static/media/kasa1.jpg": "/myportfolio/static/media/kasa1.1e7f96cb80c8da3696e2.jpg",
-    "static/media/image3.jpeg": "/myportfolio/static/media/image3.0a082d1b988d02ac0d67.jpeg",
-    "static/media/Montana.ttf": "/myportfolio/static/media/Montana.edfbca1781d91e11369c.ttf",
-    "static/media/image2.jpeg": "/myportfolio/static/media/image2.f32397290751945109c7.jpeg",
-    "index.html": "/myportfolio/index.html",
-    "main.68472cc2.css.map": "/myportfolio/static/css/main.68472cc2.css.map",
-    "main.1de8d0f5.js.map": "/myportfolio/static/js/main.1de8d0f5.js.map",
-    "787.1ed0c42c.chunk.js.map": "/myportfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/my%20portfolio/static/css/main.4651dda3.css",
+    "main.js": "/my%20portfolio/static/js/main.1b400a00.js",
+    "static/js/787.1ed0c42c.chunk.js": "/my%20portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Heiti.TTF": "/my%20portfolio/static/media/Heiti.047c1ed20f5aae89948b.TTF",
+    "static/media/guitare.JPG": "/my%20portfolio/static/media/guitare.e1062ff95f74b0c8efe0.JPG",
+    "static/media/assis.JPG": "/my%20portfolio/static/media/assis.f37a96e0a68297035399.JPG",
+    "static/media/debout.JPG": "/my%20portfolio/static/media/debout.687c9d971fced2c4c112.JPG",
+    "static/media/image1.jpg": "/my%20portfolio/static/media/image1.db61851236c128c31442.jpg",
+    "static/media/sophiebuel1.png": "/my%20portfolio/static/media/sophiebuel1.ba7d1f130ea2292b79f6.png",
+    "static/media/grimmoire1.png": "/my%20portfolio/static/media/grimmoire1.622294292af246589466.png",
+    "static/media/Doctor.otf": "/my%20portfolio/static/media/Doctor.dba195ec081494ebf1e4.otf",
+    "static/media/booki1.png": "/my%20portfolio/static/media/booki1.a346b4906372d7554201.png",
+    "static/media/Bukari-script.ttf": "/my%20portfolio/static/media/Bukari-script.7b5651144c5259518a6b.ttf",
+    "static/media/kasa1.jpg": "/my%20portfolio/static/media/kasa1.1e7f96cb80c8da3696e2.jpg",
+    "static/media/image3.jpeg": "/my%20portfolio/static/media/image3.0a082d1b988d02ac0d67.jpeg",
+    "static/media/Montana.ttf": "/my%20portfolio/static/media/Montana.edfbca1781d91e11369c.ttf",
+    "static/media/image2.jpeg": "/my%20portfolio/static/media/image2.f32397290751945109c7.jpeg",
+    "index.html": "/my%20portfolio/index.html",
+    "main.4651dda3.css.map": "/my%20portfolio/static/css/main.4651dda3.css.map",
+    "main.1b400a00.js.map": "/my%20portfolio/static/js/main.1b400a00.js.map",
+    "787.1ed0c42c.chunk.js.map": "/my%20portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68472cc2.css",
-    "static/js/main.1de8d0f5.js"
+    "static/css/main.4651dda3.css",
+    "static/js/main.1b400a00.js"
   ]
 }
