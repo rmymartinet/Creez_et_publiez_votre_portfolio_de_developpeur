@@ -8,9 +8,15 @@ const Contact = () => {
           <h1>Vous souhaitez me contacter ?</h1>
         </div>
         <div className="contact-links">
-          <a className="contact-link">Linkedin</a>
-          <a className="contact-link">Github</a>
-          <a className="contact-link">Instagram</a>
+          <a href="https://www.linkedin.com/feed/" className="contact-link">
+            Linkedin
+          </a>
+          <a href="https://github.com/rmymartinet" className="contact-link">
+            Github
+          </a>
+          <a href="https://www.instagram.com/remymtr/" className="contact-link">
+            Instagram
+          </a>
           <a href="mailto:remymartin.bk@gmail.com" className="contact-link">
             @remymartin.bk@gmail.com
           </a>

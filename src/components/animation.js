@@ -1,11 +1,4 @@
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useMotionTemplate,
-} from 'framer-motion';
-
-import { useRef } from 'react';
+import { motion } from 'framer-motion';
 
 //Animation des textes
 

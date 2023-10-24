@@ -39,7 +39,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { motion, AnimateSharedLayout, AnimatePresence } from 'framer-motion';
+
+/* eslint-disable no-unused-vars */
 
 import Loader from '../components/Loader/index.js';
 import Hero from '../components/Hero/hero.js';
@@ -49,6 +50,7 @@ import Service from '../components/Stages/service.js';
 import Contact from '../components/Contact/Contact.js';
 
 const Home = () => {
+  /* eslint-disable no-unused-vars */
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

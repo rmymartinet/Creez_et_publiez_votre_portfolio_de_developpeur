@@ -29,7 +29,7 @@ const PortfolioSophieBuel = () => {
             transition={{ duration: 0.9 }}
             onAnimationComplete={handleAnimation}
           >
-            <img src={sophiebuel}></img>
+            <img alt="sophie buel" src={sophiebuel}></img>
           </motion.div>
         </div>
       </div>

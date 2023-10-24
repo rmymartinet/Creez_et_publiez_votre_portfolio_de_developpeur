@@ -30,7 +30,7 @@ const PortfolioKasa = () => {
             transition={{ duration: 0.9 }}
             onAnimationComplete={handleAnimation}
           >
-            <img src={kasa}></img>
+            <img alt="kasa" src={kasa}></img>
           </motion.div>
         </div>
       </div>

@@ -29,7 +29,7 @@ const PortfolioBooki = () => {
             transition={{ duration: 0.9 }}
             onAnimationComplete={handleAnimation}
           >
-            <img src={booki}></img>
+            <img alt="booki" src={booki}></img>
           </motion.div>
         </div>
       </div>

@@ -10,7 +10,6 @@ import '../About/about.scss';
 
 const AboutFake = () => {
   const AboutRef = useRef();
-  const CategoriesWrapperRef = useRef();
 
   const { scrollYProgress } = useScroll({
     target: AboutRef,

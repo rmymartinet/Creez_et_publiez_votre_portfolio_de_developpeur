@@ -20,6 +20,8 @@ function GalleryComponent() {
 
     const imgPreview = imgPreviewRef.current;
     const imgs = imgsRef.current;
+
+    /* eslint-disable no-unused-vars */
     let isimgPreviewOpen = false;
     let activeImg = null;
     let activeImgImg = null;
@@ -81,7 +83,11 @@ function GalleryComponent() {
           >
             <div className="wrap">
               <Link to="/portfolio/grimmoire">
-                <img className="img" src={grimmoire} />
+                <img
+                  className="img"
+                  alt="mon vieux grimmoire"
+                  src={grimmoire}
+                />
               </Link>
             </div>
             <div className="imgContainer-infos">
@@ -95,7 +101,7 @@ function GalleryComponent() {
           >
             <div className="wrap">
               <Link to="/portfolio/sophiebuel">
-                <img className="img" src={sophiebuel} />
+                <img alt="sophie buel" className="img" src={sophiebuel} />
               </Link>
             </div>
             <div className="imgContainer-infos">
@@ -109,7 +115,7 @@ function GalleryComponent() {
           >
             <div className="wrap">
               <Link to="/portfolio/booki">
-                <img className="img" src={booki} />
+                <img alt="booki" className="img" src={booki} />
               </Link>
             </div>
             <div className="imgContainer-infos">

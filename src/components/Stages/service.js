@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import './service.scss';
 import { AnimatedTextStaggerLetter } from '../Hero/hero_components.js';
 
