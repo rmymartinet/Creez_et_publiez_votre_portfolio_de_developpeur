@@ -21,8 +21,9 @@ const HeroAnimatedLetters = ({ title }) => (
     initial="initial"
     animate="animate"
   >
-    {[...title].map((letter) => (
+    {[...title].map((letter, index) => (
       <motion.span
+        key={index}
         className={`row-letter ${letter === 'y' ? 'special-class' : ''}`}
         variants={lettersMove}
       >
@@ -78,8 +79,9 @@ export const AnimatedTextStaggerLetter = ({
         animate="visible"
         transition={{ delayChildren: 0.4, staggerChildren: 0.1 }}
       >
-        {text.split('').map((char) => (
+        {text.split('').map((char, index) => (
           <motion.span
+            key={index}
             style={{ display: 'inline-block' }}
             variants={defaultAnimation}
           >

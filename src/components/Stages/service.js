@@ -4,8 +4,8 @@ import { AnimatedTextStaggerLetter } from '../Hero/hero_components.js';
 
 const Service = () => {
   return (
-    <main class="main-container">
-      <header class="main-header">
+    <main className="main-container">
+      <header className="main-header">
         <span>Processus de </span>
         <AnimatedTextStaggerLetter text="travail" className="text-red" />
       </header>

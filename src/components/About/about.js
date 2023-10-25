@@ -7,7 +7,7 @@ import assis from '../../images/assis.webp';
 import guitare from '../../images/guitare.webp';
 import '../About/about.scss';
 
-const AboutFake = () => {
+const About = () => {
   //Animations
   const AboutRef = useRef();
 
@@ -66,9 +66,11 @@ const AboutFake = () => {
           ></motion.img>
         </div>
       </motion.div>
+
+      {/* Composant Hobby*/}
       <Hobby />
     </>
   );
 };
 
-export default AboutFake;
+export default About;
