@@ -53,7 +53,7 @@ export const Hero = () => {
           </p>
         </motion.div>
         <motion.div className="hero-version">
-          <p>portfolio vol.1</p>
+          <p>France</p>
         </motion.div>
         <motion.div className="hero-left">
           <motion.div className="hero-content" style={{ position }}>
